@@ -215,9 +215,10 @@ body {
   max-width: 800px;
 }
 
-.back {
+a {
   color: aliceblue;
 }
-.back a:hover {
+a:hover {
   color: lightblue;
 }
+
