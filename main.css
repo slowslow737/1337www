@@ -210,3 +210,14 @@ body {
 #index a:hover {
   color: white;
 }
+
+#desc p {
+  max-width: 800px;
+}
+
+.back {
+  color: aliceblue;
+}
+.back a:hover {
+  color: lightblue;
+}
