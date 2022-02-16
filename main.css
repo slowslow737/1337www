@@ -1,11 +1,13 @@
 body {
   background-color: #000;
   color: #fff;
-  min-height: 100vh;
+  min-height: 70vh;
   display: grid;
   place-items: center;
   perspective: 500px;
   perspective-origin: 50% calc(50% - 150px);
+  overflow: auto;
+  padding-top: 50px;
 }
 
 .scene {
@@ -17,8 +19,8 @@ body {
 .banner {
   display: flex;
   transform-style: preserve-3d;
-  -webkit-animation: rotate 12s infinite linear;
-  animation: rotate 12s infinite linear;
+  -webkit-animation: rotate 8s infinite linear;
+  animation: rotate 8s infinite linear;
 }
 
 @-webkit-keyframes rotate {
@@ -202,6 +204,11 @@ body {
   background-image: linear-gradient(90deg, #000a, #0004, #000a);
   transform: translate(-50%, -50%);
 }
+
+#index {
+  padding-top: 20px;
+}
+
 #index a {
   display: block;
   color: lightblue;
@@ -213,6 +220,7 @@ body {
 
 #desc p {
   max-width: 800px;
+  font-size: 1.5rem;
 }
 
 a {
@@ -222,3 +230,6 @@ a:hover {
   color: lightblue;
 }
 
+#desc h1 {
+  font-size: 4rem;
+}
