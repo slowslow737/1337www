@@ -278,3 +278,26 @@ div.desc {
 .work-post {
   max-width: 800px;
 }
+
+#category-link {
+  border-radius: 50%;
+  background-color: #aeff01;
+  width: 150px;
+  height: 50px;
+  margin: 0 20px 20px 20px;
+}
+
+#category-link:hover {
+  background-color: #e3ffa7;
+}
+
+#category-link a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+#heading2 {
+  font-size: 2.5rem;
+  color: #aeff01;
+}
