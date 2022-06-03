@@ -205,7 +205,7 @@ body {
 }
 
 #index {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   font-size: 2rem;
 }
@@ -213,6 +213,7 @@ body {
 #index a {
   display: block;
   color: lightblue;
+  padding-bottom: 20px;
 }
 
 #index a:hover {
