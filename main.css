@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(29, 32, 71);
+  background: linear-gradient(45deg, rgb(9, 19, 51) 50%, rgb(67, 33, 146) 50%);
+
   color: #fff;
   min-height: 70vh;
   display: grid;
@@ -300,4 +301,18 @@ div.desc {
 #heading2 {
   font-size: 2.5rem;
   color: #aeff01;
+}
+
+
+
+#lol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+center {
+  width: 60%;
+  height: 500px;
 }
