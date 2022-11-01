@@ -24,3 +24,14 @@ drawParticles() {
         </circle>`).join('')}
     </g>`
   }
+
+  filterImageBack() {
+    return
+    `<filter id=${this.filterBackId}>
+      <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+        .33 .33 .33 0 0
+        .33 .33 .33 0 0
+        0 0 0 1 0">
+      </feColorMatrix>
+    </filter>`
+  }
